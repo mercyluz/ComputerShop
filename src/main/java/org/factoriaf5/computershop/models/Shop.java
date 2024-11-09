@@ -1,4 +1,5 @@
 package org.factoriaf5.computershop.models;
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -10,16 +11,17 @@ import jakarta.persistence.Table;
 @Table(name = "Shop")
 public class Shop {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private static Long id;
+        @Id
+        @GeneratedValue(strategy = GenerationType.IDENTITY)
+        @Column(name = "id_shop")
+        private Long id;
         private String name;
         private String owner;
         private String taxid;
        
           // Constructor
           public Shop(Long id, String name, String owner, String taxid) {
-            Shop.id = id;
+            this.id = id;
             this.name = name;
             this.owner = owner;
             this.taxid = taxid;
@@ -50,19 +52,19 @@ public class Shop {
         public void setTaxid(String taxid) {
             this.taxid = taxid;
         }
-    
-        // Método para mostrar la información de la tienda
-        @Override
-        public String toString() {
-            return "Tienda [Nombre=" + name + ", Propietario=" + owner + ", Identificador Tributario=" + taxid + "]";
-        }
+    //
+      //  // Método para mostrar la información de la tienda
+       // @Override
+        //public String toString() {
+         //   return "Tienda [Nombre=" + name + ", Propietario=" + owner + ", Identificador Tributario=" + taxid + "]";
+       // }
     
         // Método main para probar la clase Tienda
-        public static void main(String[] args) {
-            new Shop(id, "TechStore", "Juan Pérez", "RUC-123456789");
+        //public static void main(String[] args) {
+         //   new Shop(id, "TechStore", "Juan Pérez", "RUC-123456789");
 
         
-    }
+    //}
 }
 
 
