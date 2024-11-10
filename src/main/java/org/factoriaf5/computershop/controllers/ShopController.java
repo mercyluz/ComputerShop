@@ -62,5 +62,8 @@ public class ShopController {
         } else {
             return new ResponseEntity<>("No se encontró la tienda.", HttpStatus.NOT_FOUND);
         }
+
+       
+        }
     }
-}
+

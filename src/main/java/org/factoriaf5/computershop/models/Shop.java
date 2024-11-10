@@ -58,6 +58,16 @@ public class Shop {
         //public String toString() {
          //   return "Tienda [Nombre=" + name + ", Propietario=" + owner + ", Identificador Tributario=" + taxid + "]";
        // }
+
+        public Long getId() {
+            // TODO Auto-generated method stub
+            throw new UnsupportedOperationException("Unimplemented method 'getId'");
+        }
+
+        public void setId(long l) {
+            // TODO Auto-generated method stub
+            throw new UnsupportedOperationException("Unimplemented method 'setId'");
+        }
     
         // Método main para probar la clase Tienda
         //public static void main(String[] args) {

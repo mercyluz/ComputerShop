@@ -24,6 +24,7 @@ public class ComputerController {
         return new ResponseEntity<>(savedComputer, HttpStatus.CREATED);
     }
 
+    
     // Endpoint para eliminar un computador por marca
     @DeleteMapping("/brand/{brand}")
     public ResponseEntity<String> deleteComputerByBrand(@PathVariable String brand) {

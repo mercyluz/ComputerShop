@@ -26,17 +26,31 @@ public class Computer {
     
 
     // Constructor
-    public Computer (Long id, String brand, String memory, String processor, String operatingsystem, double price) {
+    public Computer (Long id, String brand, int memory, String processor, String  operatingsystem, Double price) {
         this.id = id;
         this.brand = brand;
         this.processor = processor;
         this.operatingsystem = operatingsystem;
         this.price = price;
     }
+  
+
+    public Computer(long id2, String brand2, String string, String processor2, String operatingsystem2, double price2) {
+        //TODO Auto-generated constructor stub
+    }
+
 
     // Métodos getter y setter
-    public String getbrand() {
+     // Métodos getter y setter
+     public String getbrand() {
         return brand;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+    public Long getId() {
+        return id;
     }
 
     public void setbrand(String brand) {
@@ -67,11 +81,11 @@ public class Computer {
         this.operatingsystem = operatingsystem;
     }
 
-    public double getPrecio() {
+    public Double getprice() {
         return price;
     }
 
-    public void setPrecio(double price) {
+    public void setprice(Double price) {
         this.price = price;
     }
 
