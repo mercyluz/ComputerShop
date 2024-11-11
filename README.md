@@ -5,12 +5,12 @@
 Api programa donde puedes elliminar , actualizar, añadir, listar las computadoras que hay en una tienda-
 
 <p align="center">
-	  <img src= "https://github.com/mercyluz/ComputerShop/blob/main/computershop.png"width=50% height=50%/>
+	  <img src= "https://github.com/mercyluz/ComputerShop/blob/main/computershop.png"width=40% height=40%/>
 </p>
 
 
 
-Este proyecto implica el desarrollo de una API que gestione las mecánicas del juego
+Este proyecto implica el desarrollo de una API que gestione el proceso de seleccionar una computadora segun su marca
 
 
 
@@ -39,8 +39,8 @@ tabla Computer
 
 ## Diagrama UML
 <p align="center">
-
-    <img src= "https://github.com/mercyluz/ComputerShop/blob/main/umlshop.png"width=50% height=50%/>
+	  <img src="https://github.com/mercyluz/ComputerShop/blob/main/umlshop.png"width=50% height=50%/>
+  
 </p>
 
 
